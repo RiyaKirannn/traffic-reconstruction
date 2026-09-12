@@ -1,0 +1,18 @@
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Python environments and caches
+backend/.venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+
+# nuScenes dataset files are large and should be downloaded separately
+backend/data/nuscenes/
